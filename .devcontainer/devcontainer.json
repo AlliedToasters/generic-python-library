@@ -1,0 +1,20 @@
+{
+	"name": "Python 3",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+
+	// Use 'appPort' to create a container with published ports. If the port isn't working, be sure
+	// your server accepts connections from all interfaces (0.0.0.0 or '*'), not just localhost.
+	"appPort": [ 9001 ],
+
+	// Install requirements
+	"postCreateCommand": "pip install -r requirements.txt",
+
+	// Comment out next line to run as root
+	//"remoteUser": "brewmaster",
+
+	// Add the IDs of extensions you want installed when the container is created in the array below.
+	"extensions": [
+		"ms-python.python"
+	]
+}
