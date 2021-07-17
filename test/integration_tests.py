@@ -2,7 +2,7 @@
 import unittest
 import numpy as np
 import pandas as pd
-from generic_library.code import ExampleClass, example_func
+from generic_library.code import SomeClass, some_func
 
 random_seed = 42
 np.random.seed(random_seed)

@@ -51,3 +51,20 @@ class SomeClass(object):
         
         """
         pass
+
+def some_func(arg):    
+    """some little function
+
+    A description of the function
+
+    Parameters
+    ----------
+    arg : int
+        an integer
+
+    Returns
+    -------
+    None
+    """
+
+    pass
