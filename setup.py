@@ -13,13 +13,17 @@ import os
 #    patch_no = int(patch_no)
 
 #version = "0.1.{}".format(patch_no)
+
 version = "0.0.1"
 
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
+requirements = [
+    "numpy"
+]
 
-with open("requirements-dev.txt") as f:
-    dev_requirements = f.read().splitlines()
+dev_requirements = [
+    "pytest",
+    "pytest-runner"
+]
 
 setup(
     name="generic-library",

@@ -4,8 +4,13 @@ This is a generic python library project for building ml tools.
  ## Documentation
  Contains `/docsrc/` for generating documentation with sphynx.
 
-## Installation
-.
+## Build
+You can build this library using the build library.
+```
+pip install build
+python -m build
+```
+Your built wheel file will appear in `./dist/*.whl` (if the build works!)
 
 ## Usage 
 .
